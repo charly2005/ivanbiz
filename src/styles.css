@@ -1,8 +1,8 @@
-body {
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+* {
+    box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
 }
 .container {
     display: grid;
@@ -10,11 +10,13 @@ body {
 }
 .navbar {
     display: flex;
-    justify-content: right;
     padding: 20px;
     padding-bottom: 35px;
     background-color: rgb(72, 62, 86);
-    
+}
+#nav-logo {
+    color:white;
+    justify-self: start;
 }
 .nav-link {
     font-size: 20px;
